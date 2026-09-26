@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+gripsenv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Datos y salidas
+*.root
+*.csv
+*.h5
+data/
+output/
+
+# Editores / SO
+.vscode/
+.idea/
+.DS_Store
