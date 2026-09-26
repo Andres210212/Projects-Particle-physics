@@ -1,0 +1,52 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish,es-noquoting]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{siunitx}
+\usepackage{booktabs}
+\usepackage[hidelinks]{hyperref}
+\usepackage[margin=2.5cm]{geometry}
+
+\title{Búsqueda del bosón $Z$ en datos abiertos de ATLAS}
+\author{Andrés}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Resumen del análisis: reconstrucción del bosón $Z$ a partir del canal
+dileptónico usando los datos abiertos de ATLAS.
+\end{abstract}
+
+\section{Introducción}
+
+El bosón $Z$ es el mediador neutro de la interacción débil. Tiene carga
+eléctrica nula y una masa de aproximadamente \SI{91.19}{\giga\electronvolt}.
+
+\section{Método}
+
+Se reconstruye la masa invariante del par de leptones:
+
+\begin{equation}
+    m_{\ell\ell} = \sqrt{2\, p_{T,1}\, p_{T,2}
+    \left[\cosh(\eta_1 - \eta_2) - \cos(\phi_1 - \phi_2)\right]}
+\end{equation}
+
+\section{Resultados}
+
+% Para insertar una figura exportada desde el notebook:
+% \begin{figure}[htbp]
+%     \centering
+%     \includegraphics[width=0.8\textwidth]{figuras/masa_invariante.pdf}
+%     \caption{Distribución de masa invariante dileptónica.}
+%     \label{fig:mll}
+% \end{figure}
+
+\section{Conclusiones}
+
+\end{document}
